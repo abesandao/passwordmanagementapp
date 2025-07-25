@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yourname.passwardapp.view.MainViewController">
+    <center>
+        <TableView fx:id="passwordTable" BorderPane.alignment="CENTER" />
+    </center>
+    <right>
+        <VBox alignment="TOP_CENTER" prefWidth="120.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <Button fx:id="addButton" onAction="#handleAddButton" maxWidth="1.7976931348623157E308" text="追加" />
+            <Button fx:id="copyButton" onAction="#handleCopyButton" maxWidth="1.7976931348623157E308" text="コピー" />
+            <Button fx:id="viewButton" onAction="#handleViewButton" maxWidth="1.7976931348623157E308" text="表示" />
+            <Button fx:id="deleteButton" onAction="#handleDeleteButton" maxWidth="1.7976931348623157E308" text="削除" />
+        </VBox>
+    </right>
+</BorderPane>

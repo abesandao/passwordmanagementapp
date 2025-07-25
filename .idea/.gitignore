@@ -1,0 +1,13 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Build output
+out/
+target/
+
+# Log files
+*.log
+
+# Data file
+passwords.enc
